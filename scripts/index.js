@@ -9,8 +9,11 @@ window.addEventListener("load", () => {
     // title: "Yaumul Milad Yah Cantikku!!!",
     // text: "Klik Tombol di Bawah Yah!",
     showCancelButton: false,
-    confirmButtonColor: "#BAC1BA",
     confirmButtonText: "Lanjut",
+    confirmButtonColor: "#BAC1BA",
+    customClass: {
+    confirmButton: 'btn-custom-font'
+    }
   }).then((result) => {
     if (result.isConfirmed) {
       document.querySelector(".song").play();
