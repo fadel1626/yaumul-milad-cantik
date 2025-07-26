@@ -3,8 +3,8 @@ window.addEventListener("load", () => {
   Swal.fire({
     html: `
     <img src="img/happybirthday.png" style="display:block; max-width: 80%; height: auto; margin: -30px auto 0 auto;">
-    <h4 style="font-size: 30px; color: #1BBC9B">Yaumul Milad Yah Cantikku!!!</h4>
-    <h4 style="font-size: 20px; color: #C0392B">Klik Tombol di Bawah Yah! \n (Volumenya Dikecilin)</h4>
+    <h4 style="font-size: 5vw; color: #1BBC9B">Yaumul Milad Yah Cantikku!!!</h4>
+    <h4 style="font-size: 4vw; color: #C0392B">Klik Tombol di Bawah Yah! \n (Volumenya Dikecilin)</h4>
     `,
     // title: "Yaumul Milad Yah Cantikku!!!",
     // text: "Klik Tombol di Bawah Yah!",
