@@ -8,6 +8,11 @@ body {
 	padding: 0px;
 }
 
+.btn-custom-font {
+  font-family: 'Indie Flower', cursive;
+  font-size: 18px;
+}
+
 .song {
   visibility: hidden;
 }
